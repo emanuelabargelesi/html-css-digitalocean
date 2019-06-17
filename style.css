@@ -16,6 +16,7 @@ body {
   text-align: right;
 }
 
+
 .container-padding {
   padding: 100px 50px;
 }
@@ -192,6 +193,12 @@ form h1 {
 
 .primasezione {
   text-align: center;
+  padding: 40px 0;
+  background-color: rgb(243, 245, 249);
+}
+
+.primasezione h4 {
+  color: rgb(147, 158, 181);
 }
 
 .wrapperimg {
@@ -203,8 +210,64 @@ form h1 {
   margin: 0 20px;
 }
 
-@media screen (max-width: 758px) {
-  .wrapperimg img {
-    max-width: 100px;
-  }
-  }
+.wrapperimg a {
+  text-decoration: none;
+  color: rgb(94, 153, 237);
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* SECONDA SEZIONE */
+.secondasezione {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.secondasezione h1 {
+  font-weight: bold;
+}
+
+.secondasezione h3 {
+  font-size: 22px;
+}
+
+.wrappersecondarow {
+  padding: 40px 0;
+}
+
+.secondasezione .left ul {
+  list-style: none;
+  border-left: 1px solid black;
+  padding-left: 20px;
+}
+
+.secondasezione .left ul li {
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.secondasezione .left ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.secondasezione .left ul li a:hover {
+  color: black;
+}
+
+.stileicone .fas {
+  color: blue;
+  font-size: 40px;
+  padding: 10px 0;
+}
+
+.stileicone h4 {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.stileicone p {
+  font-size: 16px;
+  color:gray;
+}
