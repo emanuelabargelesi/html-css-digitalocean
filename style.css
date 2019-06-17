@@ -1,0 +1,81 @@
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+/* NAV PRIMO PEZZO */
+
+.navprimo {
+  padding-top: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.navprimo p {
+  display: inline-block;
+  font-size: 11px;
+  padding: 3px;
+  margin-left: 20px;
+  background-color: rgb(0, 215, 210);
+  border-radius: 20%;
+}
+.navprimo a {
+  text-decoration: none;
+  color: rgb(91, 105, 151);
+  padding: 0 10px;
+}
+
+.navprimo a:last-child {
+  margin-right: 20px;
+}
+
+.navprimo .left a:hover {
+  color: rgb(46, 97, 225);
+}
+
+.navprimo a i {
+  color: rgb(91, 105, 151);
+  font-size: 12px;
+}
+
+/* NAV SECONDO PEZZO */
+
+.navsecondo img {
+  max-height: 70px;
+  padding-left: 10px;
+  float: left;
+}
+
+.navsecondo ul {
+  list-style-type: none;
+}
+
+.navsecondo ul li:first-child{
+  padding-left: 50px;
+}
+
+.navsecondo ul li {
+  float: left;
+  padding: 38px 15px 0 15px;
+}
+
+.navsecondo ul li a {
+  font-size: 17px;
+  color: rgb(91, 105, 151);
+}
+
+.navsecondo ul li a:hover {
+  text-decoration: none;
+  color: rgb(46, 97, 225);
+}
+
+.navsecondo button {
+  margin-top: 28px;
+  padding: 5px 10px;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 10px;
+  color: blue;
+}
