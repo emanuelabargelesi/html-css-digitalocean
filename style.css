@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 130px;
+}
+
 .left {
   text-align: left;
 }
@@ -6,7 +16,15 @@
   text-align: right;
 }
 
+.container-padding {
+  padding: 100px 50px;
+}
+
 /* NAV PRIMO PEZZO */
+
+.navbar-color {
+background-color: white;
+}
 
 .navprimo {
   padding-top: 10px;
@@ -21,6 +39,15 @@
   background-color: rgb(0, 215, 210);
   border-radius: 20%;
 }
+
+.navprimo ul {
+  list-style-type: none;
+}
+
+.navprimo ul li {
+  display: inline-block;
+}
+
 .navprimo a {
   text-decoration: none;
   color: rgb(91, 105, 151);
@@ -41,7 +68,6 @@
 }
 
 /* NAV SECONDO PEZZO */
-
 .navsecondo img {
   max-height: 70px;
   padding-left: 10px;
@@ -52,17 +78,17 @@
   list-style-type: none;
 }
 
-.navsecondo ul li:first-child{
+.navsecondo ul li:first-child {
   padding-left: 50px;
 }
 
 .navsecondo ul li {
   float: left;
-  padding: 38px 15px 0 15px;
+  padding: 38px 10px 0 10px;
 }
 
 .navsecondo ul li a {
-  font-size: 17px;
+  font-size: 15px;
   color: rgb(91, 105, 151);
 }
 
@@ -79,3 +105,82 @@
   border-radius: 10px;
   color: blue;
 }
+
+@media (max-width: 758px) {
+  .navprimo {
+    display: none;
+  }
+
+  .navsecondo ul {
+    display: none;
+  }
+
+  .navsecondo button {
+    display: none;
+  }
+
+}
+
+
+/* NAV GRANDE PRINCIPALE */
+.sfondoblu {
+  background: url("img/backgroundblue.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.navgrande .left h1 {
+  font-size: 62px;
+}
+
+.navgrande .left h2 {
+  font-size: 28px;
+  opacity: 0.8;
+}
+
+.form-bianco {
+  background-color: white;
+  padding: 30px 10px;
+}
+
+form h1 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.form-padding {
+  padding: 10px 20px;
+}
+
+.inputstyle {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  margin: 10px 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.buttonheader {
+  background-color: rgb(12, 184, 99);
+}
+
+.buttonheadersecondo {
+  background-color: white;
+  color: gray;
+}
+
+.buttonheadersecondo i {
+  margin-right: 20px;
+}
+
+/* MAIN */
+/* PRIMA SEZIONE */
