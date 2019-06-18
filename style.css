@@ -271,3 +271,149 @@ form h1 {
   font-size: 16px;
   color:gray;
 }
+
+/* TERZA SEZIONE */
+
+.terzasezione {
+  text-align: center;
+  background-color: rgb(243, 245, 249);
+}
+
+.wrapperterzasezione {
+  width: 70%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.terzasezione h1 {
+  font-weight: bold;
+}
+
+.terzasezione h3 {
+  font-size: 22px;
+}
+
+.terzasezione img {
+  max-width: 90%;
+  margin-top: 40px;
+}
+
+/* QUARTA SEZIONE */
+.quartasezione{
+padding: 80px 0;
+}
+
+.quartasezione h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.padding-colonna-quarta {
+  padding: 20px 30px;
+}
+
+.quartasezione h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.quartasezione p {
+  font-size: 14px;
+  color: gray;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.quartasezione a {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.quartasezione a i {
+font-size: 12px;
+margin-left: 10px;
+}
+
+.quartasezione .fas-style{
+  color: blue;
+  font-size: 40px;
+  padding: 10px 0;
+}
+
+
+/* QUINTA SEZIONE */
+
+.quintasezione {
+  padding: 80px 0;
+}
+
+.sfondoblu2 {
+  background: url("img/backgroundblue2.jpg")no-repeat;
+  background-size: cover;
+}
+
+.quintasezione h1 {
+  text-align: center;
+}
+
+.quintasezione table {
+  margin-top: 40px;
+}
+
+.quintasezione td {
+  border-bottom: 1px solid gray;
+}
+.tdleft {
+  font-weight: bold;
+  padding-right: 50px;
+  padding-left: 10px;
+  color: white;
+}
+
+.tdmiddle {
+  color: lightgray;
+  padding-right: 150px;
+}
+
+.tdright {
+  padding-right: 10px;
+}
+
+.tdright a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.tdright a:hover {
+  color: blue;
+}
+
+
+/* SESTA SEZIONE */
+/* regole dalla terza sezione*/
+
+
+/* SETTIMA SEZIONE */
+
+.settimasezione {
+  padding: 60px 0;
+  color: white;
+  text-align: center;
+}
+
+.settimasezione h1 {
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+
+.settimasezione button {
+  background-color: white;
+  color: blue;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
