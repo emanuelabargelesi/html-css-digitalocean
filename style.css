@@ -417,3 +417,44 @@ margin-left: 10px;
   font-size: 16px;
   font-weight: bold;
 }
+
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(1, 14, 40);
+}
+
+.wrapperfooter {
+  padding: 40px 0;
+}
+
+footer p {
+  color: gray;
+  margin-top: 10px;
+  font-size: 16px;
+}
+footer .fab, footer .fas {
+  font-size: 24px;
+  color: gray;
+  margin: 20px 5px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+footer ul li a {
+  color: gray;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: none;
+  color: white;
+}
