@@ -5,7 +5,7 @@
 }
 
 body {
-  padding-top: 130px;
+  padding-top: 70px;
 }
 
 .left {
@@ -69,10 +69,14 @@ background-color: white;
 }
 
 /* NAV SECONDO PEZZO */
-.navsecondo img {
-  max-height: 70px;
+
+.navsecondo {
+  padding: 15px 0;
+}
+.navsecondo svg {
   padding-left: 10px;
   float: left;
+  fill: #0069ff;
 }
 
 .navsecondo ul {
@@ -85,7 +89,7 @@ background-color: white;
 
 .navsecondo ul li {
   float: left;
-  padding: 38px 10px 0 10px;
+  padding: 5px 10px 0 10px;
 }
 
 .navsecondo ul li a {
@@ -99,7 +103,6 @@ background-color: white;
 }
 
 .navsecondo button {
-  margin-top: 28px;
   padding: 5px 10px;
   background-color: white;
   border: 1px solid blue;
@@ -107,7 +110,7 @@ background-color: white;
   color: blue;
 }
 
-@media screen (max-width: 758px) {
+@media (max-width: 758px) {
   .navprimo {
     display: none;
   }
